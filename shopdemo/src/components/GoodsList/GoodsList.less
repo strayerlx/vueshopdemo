@@ -1,0 +1,48 @@
+#goods-list {
+  .goods-list-content {
+    width: 90%;
+    margin: 2.9rem auto 3.9rem;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      >li {
+        width: 48%;
+        margin-bottom: .5rem;
+        text-align: center;
+
+        a {
+          display: block;
+
+          .goods-img {
+            height: 8rem;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          h3 {
+            font-weight: 500;
+            font-size: .9rem;
+            margin: .3rem 0;
+          }
+
+          del {
+            color: #b4b4b4;
+            font-size: .7rem;
+          }
+
+          .goods-sell-price,
+          .goods-stock-quantity {
+            color: #666;
+            font-size: .85rem;
+          }
+        }
+      }
+    }
+  }
+}

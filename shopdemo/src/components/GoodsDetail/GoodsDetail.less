@@ -1,0 +1,85 @@
+#goods-detail {
+  margin-bottom: 3.9rem;
+  position: relative;
+
+  .goods-img-swipe {
+    margin: 2.9rem 0 1rem;
+  }
+
+  .goods-detail-content {
+    width: 90%;
+    margin: 0 auto;
+
+    h3 {
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: .3rem;
+    }
+
+    .goods-common {
+      color: #666;
+      font-size: .85rem;
+      margin-bottom: .3rem;
+    }
+
+    .goods-market-price {
+      display: block;
+      color: #c9c9c9;
+      font-size: .8rem;
+      margin-bottom: .3rem;
+    }
+
+    .goods-buy {
+      font-size: .85rem;
+      color: #666;
+
+      button {
+        height: 1.3rem;
+        width: 1.3rem;
+        text-align: center;
+      }
+
+      .buy-quantity {
+        width: 2rem;
+        border-bottom: 1px solid #666;
+        height: 1.3rem;
+      }
+    }
+  }
+
+  .ball {
+    position: absolute;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    background: deeppink;
+    bottom: 13rem;
+    left: 5rem;
+  }
+
+  .ball-enter-active {
+    animation: ball-move 1.3s;
+  }
+
+  .ball-leave {
+    opacity: 0;
+  }
+
+  @keyframes ball-move {
+    25% {
+      transform: translate(8rem, -2rem);
+    }
+
+    50% {
+      transform: translate(12rem, 0);
+    }
+
+    75% {
+      transform: translate(7rem, 4rem);
+    }
+
+    100% {
+      transform: translate(7rem, 13rem);
+    }
+  }
+}

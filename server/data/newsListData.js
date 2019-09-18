@@ -1,0 +1,43 @@
+module.exports = [{
+    id: '1',
+    title: '习近平在红土地上这样谈“心”',
+    click: 9999,
+    add_time: '2019/5/26 09:27',
+    img_url: 'http://localhost:8888/public/images/news-title-1.png',
+},
+{
+    id: '2',
+    title: '中国贸促会会长高燕：美方霸凌主义做法严重践踏多边贸易规则',
+    click: 8999,
+    add_time: '2019/5/27 10:59',
+    img_url: 'http://localhost:8888/public/images/news-title-2.png',
+},
+{
+    id: '3',
+    title: '江苏东台一医院69人院内感染丙肝病毒 医院书记院长被免职',
+    click: 666,
+    add_time: '2019/5/27 08:45',
+    img_url: 'http://localhost:8888/public/images/news-title-3.png',
+},
+{
+    id: '4',
+    title: '微软、通用电气等致信美国政府：封杀中国企业将“引火烧身”',
+    click: 888,
+    add_time: '2019/5/27 12:02',
+    img_url: 'http://localhost:8888/public/images/news-title-4.png',
+},
+{
+    id: '5',
+    title: '贝尔：勇士队里没人在乎谁来首发 卢尼就是个实例',
+    click: 233,
+    add_time: '2019/5/27 02:36',
+    img_url: 'http://localhost:8888/public/images/news-title-5.png',
+},
+{
+    id: '6',
+    title: '李嘉诚的宝马，玻璃厚6cm可挡子弹，6.2秒破百535马力',
+    click: 9999,
+    add_time: '2019/5/27 13:43',
+    img_url: 'http://localhost:8888/public/images/news-title-6.png',
+},
+];
